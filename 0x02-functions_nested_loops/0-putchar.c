@@ -1,29 +1,34 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- *  main - Print "alx"
- *  
- *  Return: Always 0 (Success)
+ *   main - prints a word
+ *   Description: just prints a statement
+ *   Return: Always(0) Success
  */
+
 int main(void)
+
 {
 
-	int i = 0;
+	_putchar('H');
 
-	char name_of_school[] = "alx";
+	_putchar('o');
 
-	while (i < 9)
+	_putchar('l');
 
-	{
+	_putchar('b');
 
-		_putchar(name_of_school[i]);
+	_putchar('e');
 
-		i++;
+	_putchar('r');
 
-	}
+	_putchar('t');
+
+	_putchar('o');
+
+	_putchar('n');
 
 	_putchar('\n');
 
 	return (0);
-
 }
