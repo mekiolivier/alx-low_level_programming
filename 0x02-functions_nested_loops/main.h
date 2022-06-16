@@ -1,29 +1,26 @@
-#include <stdio.h>
-#include "main.h"
 
-/** 
- *     main - prints _putchar, flowd by a new linee
- *
- *     Return: Alwys 0 (Success)
- */
+int _putchar(char c);
 
-int main(void)
-{
+ void print_alphabet(void);
 
-	char b[] = "_putchar";
+ void print_alphabet_x10(void);
 
-	int c;
+ int _islower(int c);
 
-	for (c = 0; c < 8; c++)
+ int _isalpha(int c);
 
-	{
+ int print_sign(int n);
 
-		_putchar(b[c]);
+ int _abs(int);
 
-	}
+ int print_last_digit(int);
 
-	_putchar('\n');
+ void jack_bauer(void)
 
-	return (0);
+ void times_table(void);
 
-}
+ int add(int, int)
+       
+ void print_to_98(int n);
+
+ void print_times_table(int n);
